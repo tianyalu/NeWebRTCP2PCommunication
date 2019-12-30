@@ -56,3 +56,9 @@
 
 ![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/a_get_sdp.png)  
 
+
+#### 1.5.4 A与B建立双向连接：  
+
+![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/a_b_connect.png)  
+
+
