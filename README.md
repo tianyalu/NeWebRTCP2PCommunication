@@ -45,11 +45,14 @@
 ### 1.5 视频通话流程
 ![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/video_communication_process.png)  
 
-SDP总体架构图：  
+#### 1.5.1 SDP总体架构图：  
 ![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/video_communication_structure.png)  
-被叫端B得到SDP流程：  
+
+#### 1.5.2 被叫端B得到SDP流程：  
+
 ![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/b_get_sdp.png)  
 
-主叫端A得到SDP流程：  
+#### 1.5.3 主叫端A得到SDP流程：  
+
 ![image](https://github.com/tianyalu/NeWebRTCP2PCommunication/raw/master/show/a_get_sdp.png)  
 
