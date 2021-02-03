@@ -19,7 +19,13 @@
 
 ### 1.3 SDP交换流程
 `SDP`是一种会话描述协议（`Session Description Protocol`），包含了一系列信息，也包括会话使用的媒体种类，双方IP和port，带宽，会话属性等。  
+
+`SDP`目的就是在媒体会话中，传递媒体流信息，允许会话描述的接收者去参与会话。`SDP`基本上在`internet`上工作，它定义了会话描述的统一格式，但并不定义多播地址的分配和`SDP`消息的传输，也不支持媒体编码方案的协商，这些功能均由下层传送协议完成。典型的会话传送协议包括：`SAP`。
+
+`SDP`描述状态，描述端对端之间在互联网传播路径，并不真正负责媒体传输，只是一个纯文本的统一描述。
+
 `SDP`交换流程：  
+
 > 首先`Offer`方通过`new RTCPPeerConnction（config）`建立`PeerConnection`；  
 > `Offer`方通过`createOffer`生成`SessionDescription`，设置`localDescription`，并通过信令服务器发送给`Answer`方；  
 > `Answer`方收到`offer`，发现并没有与之对应的`peerConnection`，新建`peerConnection`，并设置`remoteDescription`；  
